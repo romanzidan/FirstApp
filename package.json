@@ -8,7 +8,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "emulator-android": "C:/Users/roman/AppData/Local/Android/Sdk/emulator/emulator -avd Pixel2"
+    "emulator-android": "C:/Users/roman/AppData/Local/Android/Sdk/emulator/emulator -avd Pixel2" 
   },
   "dependencies": {
     "react": "17.0.2",
