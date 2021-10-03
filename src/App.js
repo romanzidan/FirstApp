@@ -7,11 +7,11 @@ import StylingComponent from './pages/StylingComponent';
 
 const App = () => {
   const [isShow, setIsShow] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setIsShow(false);
-    }, 6000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIsShow(false);
+  //   }, 6000);
+  // }, []);
   return (
     <View>
       <ScrollView>
