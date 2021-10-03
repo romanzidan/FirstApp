@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {ScrollView, View} from 'react-native';
+import BasicJavascript from './pages/BasicJavascript';
 import Communication from './pages/Communication';
 import FlexBox from './pages/FlexBox';
 import Position from './pages/Position';
@@ -26,7 +27,8 @@ const App = () => {
         {/* <PropsDinamis /> */}
         {/* <StateDinamis /> */}
         {/* <Communication /> */}
-        <ReactNativeSvg />
+        {/* <ReactNativeSvg /> */}
+        <BasicJavascript />
       </ScrollView>
     </View>
   );
