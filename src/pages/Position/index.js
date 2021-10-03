@@ -1,8 +1,8 @@
 import React from 'react';
 import {StyleSheet, Text, View, Image} from 'react-native';
-import cart from './cart.png';
+import cart from '../../assets/icon/cart.png';
 
-export default function PositionReactNative() {
+export default function Position() {
   return (
     <>
       <View style={styles.wrapper}>
@@ -10,7 +10,7 @@ export default function PositionReactNative() {
           <Image source={cart} style={styles.iconCart} />
           <Text style={styles.notif}>12</Text>
         </View>
-        <Text style={styles.text}>Keranjang Belanja Anda</Text>
+        <Text style={styles.text}>Keranjang Belanja</Text>
       </View>
     </>
   );
